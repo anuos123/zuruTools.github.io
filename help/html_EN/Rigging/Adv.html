@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AdvTools</title>
+<script type="text/javascript" src="../../script.js"></script>
+<link href="../../css/stylecommon.css" rel="stylesheet" type="text/css">
+<link href="../../css/style_each.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div>
+  <nav class="nav_side">
+    <div class="nav_side_search">
+	  <div class="logo_div">
+		  <img src="../../Resources/home_icon.png" width="23" height="20" alt=""/>
+		  <a href="../index.html" class="zuruTools_a">ZuruTools</a>
+	</div>
+	  <div>
+		  <form>
+				<input type="text" name="q" placeholder="Search docs">
+		  </form>
+	  </div>
+    </div>
+    <div>
+		<ul>
+			<li class="menu_li"><a href="../Tools/Tools.html" class="menu_a">Tools</a></li>
+			<li class="menu_li"><a href="../Modeling/Modeling.html" class="menu_a">Modeling</a></li>
+			<li class="menu_spread_li_off">
+				<div class="menu_spread_top">
+				<span class="menu_spread_span"></span>
+				<a href="Rigging.html" class="menu_spread_a_top">Rigging <p id="demo"></p></a>
+				</div>
+				<ul class="menu_spread_ul">
+				  <li class="menu_spread_li02"><a href="Controls.html" class="menu_spread_a">ControlsTools</a></li>
+					<li class="menu_spread_li02"><a href="Adv.html" class="menu_current_item">AdvancedTools</a></li>
+			  </ul>
+		  </li>
+			<script>
+					var spread_span=document.querySelector(".menu_spread_span");
+					var spread_ul=document.querySelector(".menu_spread_ul");
+					var spread_top_a=document.querySelector(".menu_spread_a")
+					var spread_top=document.querySelector(".menu_spread_top")
+					spread_span.addEventListener("click",show)
+					function show(){
+						console.log(spread_ul.className)
+						if(spread_ul.className=="menu_spread_ul_off"){
+							spread_top_a.className="menu_spread_a";
+							spread_top.className="menu_spread_top";
+							spread_ul.className="menu_spread_ul";
+							spread_span.className="menu_spread_span";
+						}
+						else{
+							spread_top_a.className="menu_spread_a_off";
+							spread_top.className="menu_spread_top_off";
+							spread_ul.className="menu_spread_ul_off";
+							spread_span.className="menu_spread_span_off";
+						}
+					}
+				</script>
+			<li class="menu_li"><a href="../Animation/Animation.html" class="menu_a">Animation</a></li>
+			<li class="menu_li"><a href="../Document.html" class="menu_a">Document</a></li>
+			<li class="menu_li"><a href="../Others/Others.html" class="menu_a">Others</a></li>
+		</ul>
+	</div>
+  </nav>
+	<section class="nav_content_wrap">
+		<div class="nav_content">
+			<div>
+				<div class="nav_content_top_div">
+		  <ul class="nav_content_top_ul">
+			  <li class="nav_content_top_li">
+				  <a href="../index.html">Docs</a>
+				  &#62;
+			  </li>
+			  <li class="nav_content_top_li">
+				  <a href="Rigging.html">Rigging</a>
+				  &#62;
+			  </li>
+			  <li class="nav_content_top_li">AdvancedTools</li>
+			  <li  class="nav_language_li">
+				  <a href="../../html/Rigging/Adv.html">翻译</a>
+			  </li>
+			  <li></li>
+		  </ul>
+		  <hr>
+		  </div>
+			<div class="content">
+			<div>
+			<h1>AdvancedTools</h1>
+			<p class="_p">AdvTools can call out the AdvancedSkeleton system, making your rigging process more convenient and efficient.<br><br><img src="../../Resources/ADV.png" alt="" width="400" height="796" class="center_img" id="display_img"/></p>
+			</div>
+			
+		</div>
+		<footer>
+		  <hr>
+		  © Copyright 2023, ZuruSZ.
+		  </footer>
+			</div>
+		</div>
+	</section>
+</div>
+<div id="img_page" class="img_backgroud">
+<img src="../../Resources/ADV.png" alt="" width="500" height="997"> </div>
+<script>
+	var imge=document.getElementById("display_img")
+	var text_bk=document.querySelector("text_background");
+	var img_bk=document.getElementById("img_page");
+	var is_img=false;
+	imge.addEventListener("click",img_show)
+	img_bk.addEventListener("click",img_close)
+	
+	function img_show(){
+		img_bk.style.display="block";
+	}
+	function img_close(){
+		img_bk.style.display="none";
+	}
+	</script>
+</body>
+</html>
