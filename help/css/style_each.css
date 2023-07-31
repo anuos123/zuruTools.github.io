@@ -105,7 +105,7 @@
 	float: left;
 	content:"";
 	display: block;
-	background-image: url(../Resources/logo_minus.png);
+	background-image: url(../Resources/logo_minus.webp);
 	background-size: cover;
 	width: 15px;
 	height: 15px;
@@ -118,7 +118,7 @@
 	float: left;
 	content:"";
 	display: block;
-	background-image: url(../Resources/logo_plus.png);
+	background-image: url(../Resources/logo_plus.webp);
 	background-size: cover;
 	width: 15px;
 	height: 15px;
