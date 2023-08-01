@@ -5,6 +5,7 @@ body{
 	position: relative;
 }
 body,td,th {
+	position: relative;
 	font-family: "微软雅黑", "黑体", "仿宋";
 	background:rgba(218,218,218,1.00);
 }
@@ -17,19 +18,19 @@ h1{
 	font-size: 175%;
 }
 a:link {
-	color:rgba(55,165,204,1.00);
+	color:rgba(153,63,74,1.00);
 	text-decoration: none;
 }
 a:visited {
-	color:rgba(143,204,226,1.00);
+	color:rgba(153,63,74,1.00);
 	text-decoration: none;
 }
 a:hover {
-	color:rgba(55,165,204,0.8);
+	color:rgba(235,81,117,1.00);
 	text-decoration: none;
 }
 a:active {
-	color:rgba(122,195,221,1.00);
+	color:rgba(153,63,74,1.00);
 	text-decoration: none;
 }
 ul{
@@ -76,7 +77,12 @@ p{
 	z-index:10;
 }
 .text_background{
-	position: relative;
+	margin: auto,0;
+	left: 50%;
+	transform: translateX(-65%);
+	width: 900px;;
+	height: inherit;
+	position: absolute;
 	display: block;
 	z-index:0;
 }
@@ -89,7 +95,7 @@ p{
 	padding-left: 0.5em;
 	display: block;
 	color: #fcfcfc;
-	background-color: rgba(55,165,204,1);
+	background:rgba(150,56,67,1.00);
 
 }
 .menu_li{
@@ -99,8 +105,7 @@ p{
 
 }
 .logo_div{
-	text-align: left;
-	padding-left: 3em;
+	text-align: center;
 	padding-bottom: 1em;
 }
 .zuruTools_a{
@@ -138,33 +143,33 @@ p{
 	color: white;
 }
 .menu_a:hover{
-	color:rgba(55,165,204,0.8);
+	color:rgba(235,81,117,1.00);
 }
 .nav_side{
-	position: fixed;
+	position: absolute;
 	color: aliceblue;
 	top: 0;
 	bottom: 0;
-	left: 600px;
-	padding-bottom: 2em;
+	padding-bottom: 64px;
 	width: 300px;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	min-height: 100%;
+	min-height: 1323px;
 	background-color: rgba(52,49,49,1.00);
 	z-index: 0
 }
 .nav_content_wrap{
-	margin-left: 890px;
-	min-height: 100%;
+	margin-left: 300px;
+	min-height: 1323px;
 	background: rgba(0,0,0,0);
 }
 .nav_content{
+	min-height: inherit;
 	padding: 2em 2em;
 	min-width: 800px;
 	max-width: 800px;
 	background: #fcfcfc;
-	position: fixed;
+	position: absolute;
 	top: -5px;
 }
 .nav_content_top_div{
