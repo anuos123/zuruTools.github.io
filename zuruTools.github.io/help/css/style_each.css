@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*index_page*/
+.doc_content_li_01{
+	list-style-type: disc;
+	height: auto;
+	margin-bottom: auto;
+}
+.doc_content_ul_02{
+	margin-top: 1em;
+	margin-left: 1em;
+}
+.doc_content_li_02{
+	list-style-type: square;
+	font-size: 80%;
+	height: 2em;
+}
+
+/*branch page*/
+.branch_content_ul{
+	margin-top: 3em;
+	margin-left: 1em;
+}
+.branch_content_li{
+	height: 5em;
+}
+.menu_spread_ul_off{
+	width: auto;
+	padding-left: 2em;
+	overflow-y: auto;
+	transition: 0.4s linear 0.2s;
+	height: 0;
+}
+.menu_spread_ul{
+	background: rgba(170,170,170,1.00);
+	height: auto;
+	border: 1px solid rgba(150,150,150,1.00);
+}
+.menu_spread_li02{
+	font-size: medium;	
+}
+.menu_spread_li01{
+	margin-top: 2em;
+	background: rgba(227,227,227);
+}
+.menu_spread_a_off{
+	margin-left: 2em;
+	min-height: 2em;
+    padding: 0em 0em;
+    display: block;
+    position: relative;
+    font-size: 90%;
+
+
+}
+.menu_spread_a_top{
+	margin-left: 2em;
+	min-height: 2em;
+    padding: 0em 0em;
+    display: block;
+    position: relative;
+    font-size: 80%;
+}
+.menu_spread_a{
+	min-height: 2em;
+    padding: 0em 0em 0em 2em;
+    display: block;
+    position: relative;
+    font-size: 60%;
+}
+.menu_spread_a:link{
+	color: black;
+}
+.menu_spread_a:hover{
+	color: black;
+}
+.menu_spread_a:visited{
+	color: black;
+}
+.menu_spread_a:active{
+	background:rgba(201,201,201,1.00);
+}
+.menu_spread_a_off:link{
+	color: white;
+}
+.menu_spread_a_off:hover{
+	color: white;
+}
+.menu_spread_a_off:visited{
+	color: white;
+}
+.menu_spread_a_off:active{
+	background:rgba(52,49,49,1.00);
+}
+.menu_spread_li_off{
+	margin-top: 2em;
+	background: rgba(52,49,49,1.00);
+	height: auto;
+	
+}
+.menu_spread_span{
+	margin-left: 0.5em;
+	margin-top: 0.2em;
+	float: left;
+	content:"";
+	display: block;
+	background-image: url(../Resources/logo_minus.webp);
+	background-size: cover;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+.menu_spread_span_off{
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	margin-top: 0.2em;
+	float: left;
+	content:"";
+	display: block;
+	background-image: url(../Resources/logo_plus.webp);
+	background-size: cover;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+.menu_spread_a div{
+	margin-left: 2em;
+}
+.menu_spread_top_off{
+	background: rgba(52,49,49,1.00);
+}
+.menu_spread_top{
+	background: rgba(255,255,255,1.00);
+}
+
+
+/*content page*/
+.menu_current_item{
+	min-height: 2em;
+    padding: 0em 0em 0em 2em;
+    display: block;
+    position: relative;
+    font-size: 60%;
+	background: rgba(140,140,140,1.00);
+	color: black;
+}
+.menu_current_item:link{
+	color: black;
+}
+.menu_current_item:active{
+	color: black;
+}
+.menu_current_item:visited{
+	color: black;
+}
+._p{
+	line-height:40px;
+	margin-left: 3em;
+	margin-bottom: 100px;
+}

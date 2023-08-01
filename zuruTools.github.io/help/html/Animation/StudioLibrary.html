@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>StidioLibrary</title>
+<script type="text/javascript" src="../html5.js"></script>
+<link href="../../css/stylecommon.css" rel="stylesheet" type="text/css">
+<link href="../../css/style_each.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="text_background">
+  <nav class="nav_side">
+    <div class="nav_side_search">
+	  <div class="logo_div">
+		  <a href="../index.html" class="zuruTools_a">ZuruTools</a>
+	</div>
+	  <div>
+		  <form>
+				<input type="text" name="q" autocomplete="off" placeholder="Search docs">
+		  </form>
+	  </div>
+    </div>
+    <div>
+		<ul>
+			<li class="menu_li"><a href="../Tools/Tools.html" class="menu_a">Tools</a></li>
+			<li class="menu_li"><a href="../Modeling/Modeling.html" class="menu_a">Modeling</a></li>
+			<li class="menu_li"><a href="../Rigging/Rigging.html" class="menu_a">Rigging</a></li>
+			<li class="menu_spread_li_off">
+				<div class="menu_spread_top">
+				<span class="menu_spread_span"></span>
+				<a href="Animation.html" class="menu_spread_a_top">Animation <p id="demo"></p></a>
+				</div>
+				<ul class="menu_spread_ul">
+				    <li class="menu_spread_li02"><a href="StudioLibrary.html" class="menu_current_item">StudioLibrary&#62;&#62;动作库</a></li>
+				    <li class="menu_spread_li02"><a href="AnimationCheck.html" class="menu_spread_a">AnimationCheckTools&#62;&#62;动画检查工具</a></li>
+					<li class="menu_spread_li02"><a href="playblast.html" class="menu_spread_a">playblastTools&#62;&#62;动画拍屏工具</a></li>
+					<li class="menu_spread_li02"><a href="FbxExport.html" class="menu_spread_a">FBXExportTools&#62;&#62;Fbx导出工具</a></li>
+			  </ul>
+		  </li>
+			<script>
+					var spread_span=document.querySelector(".menu_spread_span");
+					var spread_ul=document.querySelector(".menu_spread_ul");
+					var spread_top_a=document.querySelector(".menu_spread_a")
+					var spread_top=document.querySelector(".menu_spread_top")
+					spread_span.addEventListener("click",show)
+					function show(){
+						console.log(spread_ul.className)
+						if(spread_ul.className=="menu_spread_ul_off"){
+							spread_top_a.className="menu_spread_a";
+							spread_top.className="menu_spread_top";
+							spread_ul.className="menu_spread_ul";
+							spread_span.className="menu_spread_span";
+						}
+						else{
+							spread_top_a.className="menu_spread_a_off";
+							spread_top.className="menu_spread_top_off";
+							spread_ul.className="menu_spread_ul_off";
+							spread_span.className="menu_spread_span_off";
+						}
+					}
+				</script>
+			<li class="menu_li"><a href="../Others/Others.html" class="menu_a">Others</a></li>
+		</ul>
+	</div>
+  </nav>
+	<section class="nav_content_wrap">
+		<div class="nav_content">
+			<div>
+				<div class="nav_content_top_div">
+		  <ul class="nav_content_top_ul">
+			  <li class="nav_content_top_li">
+				  <a href="../index.html">Docs</a>
+				  &#62;
+			  </li>
+			   <li class="nav_content_top_li">
+				  <a href="Animation.html">Animation</a>
+				  &#62;
+			  </li>
+			  <li class="nav_content_top_li">StudioLibrary</li>
+			  <li  class="nav_language_li">
+				  <a href="../../html_EN/Animation/StudioLibrary.html">Translate</a>
+			  </li>
+			  <li></li>
+		  </ul>
+		  <hr>
+		  </div>
+		<div class="content">
+		  <div>
+			<h1>StudioLibrary</h1>
+			<p class="_p">StudioLibrary是动作库,你可以使用它来添加pose、添加动画等。
+				<img src="../../Resources/SL.webp" width="600" height="414" alt="" id="display_img"/>
+			  </p>
+			</div>
+			
+		</div>
+		<footer>
+		  <hr>
+		  © Copyright 2023, ZuruSZ.
+		  </footer>
+			</div>
+		</div>
+	</section>
+</div>
+<div id="img_page" class="img_backgroud">
+	<img src="../../Resources/SL.webp" alt="" width="1410" height="962"> </div>
+<script>
+	var imge=document.getElementById("display_img")
+	var text_bk=document.querySelector("text_background");
+	var img_bk=document.getElementById("img_page");
+	var is_img=false;
+	imge.addEventListener("click",img_show)
+	img_bk.addEventListener("click",img_close)
+	
+	function img_show(){
+		img_bk.style.display="block";
+	}
+	function img_close(){
+		img_bk.style.display="none";
+	}
+	</script>
+</body>
+</html>

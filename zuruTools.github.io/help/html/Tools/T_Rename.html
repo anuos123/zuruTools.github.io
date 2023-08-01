@@ -1,0 +1,119 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>Rename</title>
+<link href="../../css/stylecommon.css" rel="stylesheet" type="text/css">
+<link href="../../css/style_each.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div class="text_background">
+  <nav class="nav_side">
+    <div class="nav_side_search">
+	  <div class="logo_div">
+		  <a href="../index.html" class="zuruTools_a">ZuruTools</a>
+	</div>
+	  <div>
+		  <form>
+				<input type="text" name="q" placeholder="Search docs">
+		  </form>
+	  </div>
+    </div>
+    <div>
+		<ul>
+			<li class="menu_spread_li_off">
+				<div class="menu_spread_top">
+				<span class="menu_spread_span" onClick="show()"></span>
+				<a href="Tools.html" class="menu_spread_a_top">Tools <p id="demo"></p></a>
+				</div>
+				<ul class="menu_spread_ul">
+				  <li class="menu_spread_li02"><a href="T_BCConstraint.html" class="menu_spread_a">BCConstraintTools&#62;&#62;约束工具</a></li>
+					<li class="menu_spread_li02"><a href="T_Rename.html" class="menu_current_item">ReNameTools&#62;&#62;重命名工具</a></li>
+					<li class="menu_spread_li02"><a href="T_Check.html" class="menu_spread_a">CheckTools&#62;&#62;资产检查工具</a></li>
+			  </ul>
+		  </li>
+			<script>
+					var spread_span=document.querySelector(".menu_spread_span");
+					var spread_ul=document.querySelector(".menu_spread_ul");
+					var spread_top_a=document.querySelector(".menu_spread_a")
+					var spread_top=document.querySelector(".menu_spread_top")
+					function show(){
+						console.log(spread_ul.className)
+						if(spread_ul.className=="menu_spread_ul_off"){
+							spread_top_a.className="menu_spread_a";
+							spread_top.className="menu_spread_top";
+							spread_ul.className="menu_spread_ul";
+							spread_span.className="menu_spread_span";
+						}
+						else{
+							spread_top_a.className="menu_spread_a_off";
+							spread_top.className="menu_spread_top_off";
+							spread_ul.className="menu_spread_ul_off";
+							spread_span.className="menu_spread_span_off";
+						}
+					}
+				</script>
+			<li class="menu_li"><a href="../Modeling/Modeling.html" class="menu_a">Modeling</a></li>
+			<li class="menu_li"><a href="../Rigging/Rigging.html" class="menu_a">Rigging</a></li>
+			<li class="menu_li"><a href="../Animation/Animation.html" class="menu_a">Animation</a></li>
+			<li class="menu_li"><a href="../Others/Others.html" class="menu_a">Others</a></li>
+		</ul>
+	</div>
+  </nav>
+	<section class="nav_content_wrap">
+		<div class="nav_content">
+			<div>
+				<div class="nav_content_top_div">
+		  <ul class="nav_content_top_ul">
+			  <li class="nav_content_top_li">
+				  <a href="../index.html">Docs</a>
+				  &#62;
+			  </li>
+			  <li class="nav_content_top_li">
+				  <a href="Tools.html">Tools</a>
+				  &#62;
+			  </li>
+			  <li class="nav_content_top_li">RenameTools</li>
+			  <li  class="nav_language_li">
+				  <a href="../../html_EN/Tools/T_Rename.html">Translate</a>
+			  </li>
+			  <li></li>
+		  </ul>
+		  <hr>
+		  </div>
+			<div class="content">
+			<div>
+			<h1>RenameTools</h1>
+			<p class="_p">RenameTools(重命名工具)具有批量修改maya内物体的名称、给名称增加前后缀、选择添加固定后缀以及修改首字母为大写等等功能。<br><br>
+				<img src="../../Resources/RN.webp" alt="" width="600" height="338" id="display_img"/>
+				 </p>
+			</div>
+		</div>
+		<footer>
+		  <hr>
+		  © Copyright 2023, ZuruSZ.
+		  </footer>
+			</div>
+		</div>
+	</section>
+</div>
+<div id="img_page" class="img_backgroud">
+	<img src="../../Resources/RN.webp" alt="" width="1959" height="1091"> </div>
+<script>
+	var imge=document.getElementById("display_img")
+	var text_bk=document.querySelector("text_background");
+	var img_bk=document.getElementById("img_page");
+	var is_img=false;
+	imge.addEventListener("click",img_show)
+	img_bk.addEventListener("click",img_close)
+	
+	function img_show(){
+		img_bk.style.display="block";
+	}
+	function img_close(){
+		img_bk.style.display="none";
+	}
+	</script>
+</body>
+</html>
