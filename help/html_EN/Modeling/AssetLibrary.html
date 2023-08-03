@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>AssetTools</title>
+<title>Modeling</title>
 <link href="../../css/stylecommon.css" rel="stylesheet" type="text/css">
 <link href="../../css/style_each.css" rel="stylesheet" type="text/css">
 </head>
@@ -29,8 +29,8 @@
 				<a href="Modeling.html" class="menu_spread_a_top">Modeling <p id="demo"></p></a>
 				</div>
 				<ul class="menu_spread_ul">
-				  <li class="menu_spread_li02"><a href="" class="menu_spread_a">AssetTools&#62;&#62;资产工具</a></li>
-				  <li class="menu_spread_li02"><a href="" class="menu_current_item">AssetLibrary&#62;&#62;资产库 v1.0 beta</a></li>
+				  <li class="menu_spread_li02"><a href="Asset.html" class="menu_spread_a">Asset Tools</a></li>
+				  <li class="menu_spread_li02"><a href="AssetLibrary.html" class="menu_spread_a">资产库 v1 Bate</a></li>
 			  </ul>
 		  </li>
 			<script>
@@ -70,24 +70,27 @@
 				  <a href="../index.html">Docs</a>
 				  &#62;
 			  </li>
-			  <li class="nav_content_top_li">
-				  <a href="Modeling.html">Modeling</a>
-				  &#62;
-			  </li>
-			  <li class="nav_content_top_li">AssetTools</li>
+			  <li class="nav_content_top_li">Modeling</li>
 			  <li  class="nav_language_li">
-				  <a href="../../html_EN/Modeling/Asset.html">Translate</a>
+				  <a href="../../html/Modeling/Modeling.html">翻译</a>
 			  </li>
 			  <li></li>
 		  </ul>
 		  <hr>
 		  </div>
 		<div class="content">
-		  <div>
-			<h1>AssetTools</h1>
-			<p class="_p">AssetTools工具是zuru的资产库工具，里面包括了zuru项目的模型资产和绑定资产两大模块，每个模块的资产又分为角色、道具和场景。你可以在想要导入的资产上单机右键选择导入方式导入资产。也可以在此提交资产。<br><br><br><img src="../../Resources/AL.webp" width="650" height="360" alt="" id="display_img"/>
-			</p>
+			<div>
+			<h1>Modeling</h1>
+			<p>The Modeling module contains a collection of modeling and rigging assets, as well as tools commonly used in the modeling process.</p>
 			</div>
+			<div>
+				<p>Contents:</p>
+				<ul class="branch_content_ul">
+				<li class="branch_content_li"><a href="Asset.html">资产库 v1 Bate</a></li>
+				<li class="branch_content_li"><a href="AssetLibrary.html">资产库 v1 Bate</a></li>
+			</ul>
+			</div>
+			
 		</div>
 		<footer>
 		  <hr>
@@ -97,22 +100,5 @@
 		</div>
 	</section>
 </div>
-<div id="img_page" class="img_backgroud">
-	<img src="../../Resources/AL.webp" alt="" width="1959" height="1091"> </div>
-<script>
-	var imge=document.getElementById("display_img")
-	var text_bk=document.querySelector("text_background");
-	var img_bk=document.getElementById("img_page");
-	var is_img=false;
-	imge.addEventListener("click",img_show)
-	img_bk.addEventListener("click",img_close)
-	
-	function img_show(){
-		img_bk.style.display="block";
-	}
-	function img_close(){
-		img_bk.style.display="none";
-	}
-	</script>
 </body>
 </html>
