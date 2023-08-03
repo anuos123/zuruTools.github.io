@@ -100,26 +100,34 @@
 		</div>
 	</section>
 </div>
-<div id="img_page" class="img_backgroud">
-	<img src="../../Resources/AL.webp" alt="" width="1959" height="1091"> </div>
-
+<div id="img_page1" class="img_backgroud">
+	<img src="../../Resources/Modeling/Mod_1_AssetLibrary_01.png" alt="" width="1959" height="1091"> </div>
+<div id="img_page2" class="img_backgroud">
+	<img src="../../Resources/Modeling/Mod_1_AssetLibrary_02.png" alt="" width="1959" height="1091"> </div>
 
 <script>
   var imge1 = document.getElementById("display_img1");
   var imge2 = document.getElementById("display_img2");
-  var img_bk = document.getElementById("img_page");
+  var img_bk1 = document.getElementById("img_page1");
+  var img_bk2 = document.getElementById("img_page2");
 
-  imge1.addEventListener("click", img_show);
-  imge2.addEventListener("click", img_show);
+  imge1.addEventListener("click", img_show1);
+  imge2.addEventListener("click", img_show2);
 
-  img_bk.addEventListener("click", img_close);
+  img_bk1.addEventListener("click", img_close1);
+  img_bk2.addEventListener("click", img_close2);
 
-  function img_show() {
-    img_bk.style.display = "block";
+  function img_show1() {
+    img_bk1.style.display = "block";
   }
-
-  function img_close() {
-    img_bk.style.display = "none";
+  function img_show2() {
+    img_bk2.style.display = "block";
+  }
+  function img_close1() {
+    img_bk1.style.display = "none";
+  }
+  function img_close2() {
+    img_bk2.style.display = "none";
   }
 </script>
 
