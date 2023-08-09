@@ -39,6 +39,8 @@
 }
 .menu_spread_li02{
 	font-size: medium;	
+	height: auto;
+	margin-bottom: 0.5em;
 }
 .menu_spread_li01{
 	margin-top: 2em;
@@ -56,14 +58,12 @@
 }
 .menu_spread_a_top{
 	margin-left: 2em;
-	min-height: 2em;
     padding: 0em 0em;
     display: block;
     position: relative;
     font-size: 90%;
 }
 .menu_spread_a{
-	min-height: 2em;
     padding: 0em 0em 0em 2em;
     display: block;
     position: relative;

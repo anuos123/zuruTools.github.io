@@ -38,7 +38,9 @@
 	border: 1px solid rgba(150,150,150,1.00);
 }
 .menu_spread_li02{
-	font-size: medium;	
+	font-size: x-large;	
+	height: auto;
+	margin-bottom: 0.5em;
 }
 .menu_spread_li01{
 	margin-top: 2em;
@@ -46,7 +48,6 @@
 }
 .menu_spread_a_off{
 	margin-left: 2em;
-	min-height: 2em;
     padding: 0em 0em;
     display: block;
     position: relative;
@@ -63,7 +64,6 @@
     font-size: 80%;
 }
 .menu_spread_a{
-	min-height: 2em;
     padding: 0em 0em 0em 2em;
     display: block;
     position: relative;

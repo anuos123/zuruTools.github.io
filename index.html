@@ -4,8 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=2.0,user-scal">
 <title>index</title>
-<link href="help/css/stylecommon.css" rel="stylesheet" type="text/css">
-<link href="help/css/style_each.css" rel="stylesheet" type="text/css">
+<script>
+	if(window.screen.width>=1680){
+		document.write('<link href="help/css/stylecommon_large.css" rel="stylesheet" type="text/css">')
+		document.write('<link href="help/css/style_each_large.css" rel="stylesheet" type="text/css">')	
+	}
+	else{
+		document.write('<link href="help/css/stylecommon_small.css" rel="stylesheet" type="text/css">')
+		document.write('<link href="help/css/style_each_small.css" rel="stylesheet" type="text/css">')
+	}
+</script>
+
+
 </head>
 
 <body>
