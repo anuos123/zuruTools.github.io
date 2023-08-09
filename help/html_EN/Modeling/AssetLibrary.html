@@ -2,9 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Modeling</title>
-<link href="../../css/stylecommon.css" rel="stylesheet" type="text/css">
-<link href="../../css/style_each.css" rel="stylesheet" type="text/css">
+<title>AssetLibrary</title>
+<script>
+	if(window.screen.width>=1680){
+		document.write('<link href="../../css/stylecommon_large.css" rel="stylesheet" type="text/css">')
+		document.write('<link href="../../css/style_each_large.css" rel="stylesheet" type="text/css">')	
+	}
+	else{
+		document.write('<link href="../../css/stylecommon_small.css" rel="stylesheet" type="text/css">')
+		document.write('<link href="../../css/style_each_small.css" rel="stylesheet" type="text/css">')
+	}
+</script>
 </head>
 
 <body>
@@ -29,8 +37,8 @@
 				<a href="Modeling.html" class="menu_spread_a_top">Modeling <p id="demo"></p></a>
 				</div>
 				<ul class="menu_spread_ul">
-				  <li class="menu_spread_li02"><a href="Asset.html" class="menu_spread_a">Asset Tools</a></li>
-				  <li class="menu_spread_li02"><a href="AssetLibrary.html" class="menu_spread_a">资产库 v1 Bate</a></li>
+				  <li class="menu_spread_li02"><a href="Asset.html" class="menu_spread_a">AssetTools</a></li>
+				  <li class="menu_spread_li02"><a href="AssetLibrary.html" class="menu_current_item">AssetLibrary</a></li>
 			  </ul>
 		  </li>
 			<script>
@@ -70,27 +78,23 @@
 				  <a href="../index.html">Docs</a>
 				  &#62;
 			  </li>
-			  <li class="nav_content_top_li">Modeling</li>
+			  <li class="nav_content_top_li">
+				  <a href="Modeling.html">Modeling</a>
+				  &#62;
+			  </li>
+			  <li class="nav_content_top_li">AssetLibrary</li>
 			  <li  class="nav_language_li">
-				  <a href="../../html/Modeling/Modeling.html">翻译</a>
+				  <a href="../../html/Modeling/AssetLibrary.html">翻译</a>
 			  </li>
 			  <li></li>
 		  </ul>
 		  <hr>
 		  </div>
 		<div class="content">
-			<div>
-			<h1>Modeling</h1>
-			<p>The Modeling module contains a collection of modeling and rigging assets, as well as tools commonly used in the modeling process.</p>
-			</div>
-			<div>
-				<p>Contents:</p>
-				<ul class="branch_content_ul">
-				<li class="branch_content_li"><a href="Asset.html">资产库 v1 Bate</a></li>
-				<li class="branch_content_li"><a href="AssetLibrary.html">资产库 v1 Bate</a></li>
-			</ul>
-			</div>
-			
+		  <div>
+			<h1>AssetLibrary</h1>
+			<p class="_p">The AssetLibrary is a new version of a library tool that contains two major modules: model assets and binding assets for the Zuru project. Each module has assets divided into characters, props, and scenes. You can right-click on the asset you want to import and select the import method. You can also submit assets through this tool<br><img src="../../Resources/Modeling/Mod_1_AssetLibrary_01.png"  width="650" height="360" alt="" id="display_img1" /><br><br>How to Use(如何使用):<br><img src="../../Resources/Modeling/Mod_1_AssetLibrary_02.png"  width="650" height="360" alt="" id="display_img2" /></p>
+		  </div>
 		</div>
 		<footer>
 		  <hr>
@@ -100,5 +104,36 @@
 		</div>
 	</section>
 </div>
+<div id="img_page1" class="img_backgroud">
+	<img src="../../Resources/Modeling/Mod_1_AssetLibrary_01.png" alt="" width="1562" height="1100"> </div>
+<div id="img_page2" class="img_backgroud">
+	<img src="../../Resources/Modeling/Mod_1_AssetLibrary_02.png" alt="" width="1700" height="806"> </div>
+
+<script>
+  var imge1 = document.getElementById("display_img1");
+  var imge2 = document.getElementById("display_img2");
+  var img_bk1 = document.getElementById("img_page1");
+  var img_bk2 = document.getElementById("img_page2");
+
+  imge1.addEventListener("click", img_show1);
+  imge2.addEventListener("click", img_show2);
+
+  img_bk1.addEventListener("click", img_close1);
+  img_bk2.addEventListener("click", img_close2);
+
+  function img_show1() {
+    img_bk1.style.display = "block";
+  }
+  function img_show2() {
+    img_bk2.style.display = "block";
+  }
+  function img_close1() {
+    img_bk1.style.display = "none";
+  }
+  function img_close2() {
+    img_bk2.style.display = "none";
+  }
+</script>
+
 </body>
 </html>

@@ -3,8 +3,16 @@
 <head>
 <meta charset="utf-8">
 <title>index</title>
-<link href="../css/stylecommon.css" rel="stylesheet" type="text/css">
-<link href="../css/style_each.css" rel="stylesheet" type="text/css">
+<script>
+	if(window.screen.width>=1680){
+		document.write('<link href="../css/stylecommon_large.css" rel="stylesheet" type="text/css">')
+		document.write('<link href="../css/style_each_large.css" rel="stylesheet" type="text/css">')	
+	}
+	else{
+		document.write('<link href="../css/stylecommon_small.css" rel="stylesheet" type="text/css">')
+		document.write('<link href="../css/style_each_small.css" rel="stylesheet" type="text/css">')
+	}
+</script>
 </head>
 
 <body>
@@ -60,7 +68,7 @@
 		  	<li class="doc_content_li_01"><a href="Modeling/Modeling.html">Modeling</a>
 			  <ul class="doc_content_ul_02">
 			  	<li class="doc_content_li_02"><a href="Modeling/Asset.html">Asset Tools</a></li>
-			  	<li class="doc_content_li_02"><a href="Modeling/AssetLibrary.html">资产库 v1 Bate</a></li>
+			  	<li class="doc_content_li_02"><a href="Modeling/AssetLibrary.html">AssetLibrary v1.0 Beta</a></li>
 			  </ul>
 		    </li>
 		  	<li class="doc_content_li_01"><a href="Rigging/Rigging.html">Rigging</a>

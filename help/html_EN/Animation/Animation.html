@@ -4,8 +4,16 @@
 <meta charset="utf-8">
 <title>Animation</title>
 <script type="text/javascript" src="../html5.js"></script>
-<link href="../../css/stylecommon.css" rel="stylesheet" type="text/css">
-<link href="../../css/style_each.css" rel="stylesheet" type="text/css">
+<script>
+	if(window.screen.width>=1680){
+		document.write('<link href="../../css/stylecommon_large.css" rel="stylesheet" type="text/css">')
+		document.write('<link href="../../css/style_each_large.css" rel="stylesheet" type="text/css">')	
+	}
+	else{
+		document.write('<link href="../../css/stylecommon_small.css" rel="stylesheet" type="text/css">')
+		document.write('<link href="../../css/style_each_small.css" rel="stylesheet" type="text/css">')
+	}
+</script>
 </head>
 
 <body>
@@ -34,7 +42,7 @@
 				<ul class="menu_spread_ul">
 				    <li class="menu_spread_li02"><a href="StudioLibrary.html" class="menu_spread_a">StudioLibrary</a></li>
 				    <li class="menu_spread_li02"><a href="AnimationCheck.html" class="menu_spread_a">AnimationCheckTools</a></li>
-					<li class="menu_spread_li02"><a href="playblast.html" class="menu_spread_a">playblastTools</a></li>
+					<li class="menu_spread_li02"><a href="Playblast.html" class="menu_spread_a">playblastTools</a></li>
 					<li class="menu_spread_li02"><a href="FbxExport.html" class="menu_spread_a">FBXExportTools</a></li>
 			  </ul>
 		  </li>
