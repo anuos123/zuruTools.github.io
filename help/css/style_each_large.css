@@ -40,7 +40,7 @@
 .menu_spread_li02{
 	font-size: medium;	
 	height: auto;
-	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
 }
 .menu_spread_li01{
 	margin-top: 2em;
@@ -57,6 +57,7 @@
 
 }
 .menu_spread_a_top{
+	height: 2em;
 	margin-left: 2em;
     padding: 0em 0em;
     display: block;
@@ -137,7 +138,7 @@
 
 /*content page*/
 .menu_current_item{
-	min-height: 2em;
+	min-height: 3em;
     padding: 0em 0em 0em 2em;
     display: block;
     position: relative;
