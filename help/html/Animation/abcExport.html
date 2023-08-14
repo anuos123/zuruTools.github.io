@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>kitsuManager</title>
+<title>FBXExport</title>
 <script type="text/javascript" src="../html5.js"></script>
 <script>
 	if(window.screen.width>=1680){
@@ -25,7 +25,7 @@
 	</div>
 	  <div>
 		  <form>
-				<input type="text" name="q" placeholder="Search docs">
+				<input type="text" name="q" autocomplete="off" placeholder="Search docs">
 		  </form>
 	  </div>
     </div>
@@ -34,16 +34,17 @@
 			<li class="menu_li"><a href="../Tools/Tools.html" class="menu_a">Tools</a></li>
 			<li class="menu_li"><a href="../Modeling/Modeling.html" class="menu_a">Modeling</a></li>
 			<li class="menu_li"><a href="../Rigging/Rigging.html" class="menu_a">Rigging</a></li>
-			<li class="menu_li"><a href="../Animation/Animation.html" class="menu_a">Animation</a></li>
-		  <li class="menu_spread_li_off">
+			<li class="menu_spread_li_off">
 				<div class="menu_spread_top">
 				<span class="menu_spread_span"></span>
-				<a href="Others.html" class="menu_spread_a_top">Others<p id="demo"></p></a>
-			</div>
+				<a href="Animation.html" class="menu_spread_a_top">Animation <p id="demo"></p></a>
+				</div>
 				<ul class="menu_spread_ul">
-				  <li class="menu_spread_li02"><a href="kitsuLogin.html" class="menu_spread_a">&#62;&#62;KitsuTaskLogin<br>Kitsu登录</a></li>
-					<li class="menu_spread_li02"><a href="kitsuManager.html" class="menu_current_item">&#62;&#62;KitsuTaskManager<br>Kitsu任务管理器</a></li>
-					<li class="menu_spread_li02"><a href="kitsuSnap.html" class="menu_spread_a">&#62;&#62;KitsuTaskSnap<br>Kitsu拍屏</a></li>
+				    <li class="menu_spread_li02"><a href="StudioLibrary.html" class="menu_spread_a">&#62;&#62;StudioLibrary<br>动作库</a></li>
+				    <li class="menu_spread_li02"><a href="AnimationCheck.html" class="menu_spread_a">&#62;&#62;AnimationCheckTools<br>动画检查工具</a></li>
+					<li class="menu_spread_li02"><a href="Playblast.html" class="menu_spread_a">&#62;&#62;playblastTools<br>动画拍屏工具</a></li>
+					<li class="menu_spread_li02"><a href="FbxExport.html" class="menu_spread_a">&#62;&#62;FBXExportTools<br>Fbx导出工具</a></li>
+					<li class="menu_spread_li02"><a href="abcExport.html" class="menu_current_item">&#62;&#62;AbcExportTools<br>ABC导出工具</a></li>
 			  </ul>
 		  </li>
 			<script>
@@ -68,6 +69,7 @@
 						}
 					}
 				</script>
+			<li class="menu_li"><a href="../Others/Others.html" class="menu_a">Others</a></li>
 		</ul>
 	</div>
   </nav>
@@ -80,13 +82,13 @@
 				  <a href="../index.html">Docs</a>
 				  &#62;
 			  </li>
-			  	  <li class="nav_content_top_li">
-				  <a href="Others.html">Others</a>
+			  <li class="nav_content_top_li">
+				  <a href="Animation.html">Animation</a>
 				  &#62;
 			  </li>
-			  <li class="nav_content_top_li">KitsuTaskManager</li>
+			  <li class="nav_content_top_li">AbcExportTools</li>
 			  <li  class="nav_language_li">
-				  <a href="../../html_EN/Others/kitsuManager.html">Translate</a>
+				  <a href="../../html_EN/Animation/abcExport.html">Translate</a>
 			  </li>
 			  <li></li>
 		  </ul>
@@ -94,11 +96,12 @@
 		  </div>
 		<div class="content">
 		  <div>
-			<h1>KitsuTaskManager</h1>
-			<p>KitsuTaskManager是kitsu的任务管理器，登录后您可以在此查看您的任务等相关信息，也可以在此提交文件<br><br>
-				<img src="../../Resources/Others/Others_KSManager_01.webp" width="650" height="412" alt="" id="display_img"/>
+			<h1>AbcExportTools</h1>
+			<p class="_p">AbcExportTools（Abc导出工具）让您快速编辑地导出Abc文件。您首先需要保存文件，(注意，保存的文件名需要以"集数_场景名_镜头名..."来命名)选择需要导出的引用文件，它会导出到指定文件夹<br><br>
+				<img src="../../Resources/Animation/Ani_AbcExportTools_01.png" width="650" height="385" alt="" id="display_img"/>
 			  </p>
 			</div>
+			
 		</div>
 		<footer>
 		  <hr>
@@ -109,7 +112,7 @@
 	</section>
 </div>
 <div id="img_page" class="img_backgroud">
-	<img src="../../Resources/Others/Others_KSManager_01.webp" alt="" width="1170" height="735"> </div>
+	<img src="../../Resources/Animation/Ani_AbcExportTools_01.png" alt="" width="1937" height="1131"> </div>
 <script>
 	var imge=document.getElementById("display_img")
 	var text_bk=document.querySelector("text_background");
