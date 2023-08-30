@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>kitsuTaskSnap</title>
+<title>videoCompareTools</title>
 <script type="text/javascript" src="../html5.js"></script>
 <script>
 	if(window.screen.width>=1680){
@@ -41,16 +41,16 @@
 				<a href="Others.html" class="menu_spread_a_top">Others<p id="demo"></p></a>
 			</div>
 				<ul class="menu_spread_ul">
-				  <li class="menu_spread_li02"><a href="kitsuLogin.html" class="menu_spread_a">&#62;&#62;KitsuTaskLogin</a></li>
-				<li class="menu_spread_li02"><a href="kitsuManager.html" class="menu_spread_a">&#62;&#62;KitsuTaskManager</a></li>
-				<li class="menu_spread_li02"><a href="kitsuSnap.html" class="menu_current_item">&#62;&#62;KitsuTaskSnap</a></li>
-				<li class="menu_spread_li02"><a href="trimmerTools.html" class="menu_spread_a">&#62;&#62;TrimmerTools</a></li>
-				<li class="menu_spread_li02"><a href="directoryTool.html" class="menu_spread_a">&#62;&#62;directoryTools</a></li>
-				<li class="menu_spread_li02"><a href="BRMTools.html" class="menu_spread_a">&#62;&#62;BRMTools</a></li>
-				<li class="menu_spread_li02"><a href="videoCompareTool.html" class="menu_spread_a">&#62;&#62;videoCompareTools</a></li>
+				  <li class="menu_spread_li02"><a href="kitsuLogin.html" class="menu_spread_a">&#62;&#62;KitsuTaskLogin<br>Kitsu登录</a></li>
+				<li class="menu_spread_li02"><a href="kitsuManager.html" class="menu_spread_a">&#62;&#62;KitsuTaskManager<br>Kitsu任务管理器</a></li>
+				<li class="menu_spread_li02"><a href="kitsuSnap.html" class="menu_spread_a">&#62;&#62;KitsuTaskSnap<br>Kitsu拍屏</a></li>
+				<li class="menu_spread_li02"><a href="trimmerTools.html" class="menu_spread_a">&#62;&#62;TrimmerTools<br>剪辑工具</a></li>
+				<li class="menu_spread_li02"><a href="directoryTool.html" class="menu_spread_a">&#62;&#62;directoryTools<br>工程目录创建工具</a></li>
+				<li class="menu_spread_li02"><a href="BRMTools.html" class="menu_spread_a">&#62;&#62;BRMTools<br>批量修正图片命名工具</a></li>
+				<li class="menu_spread_li02"><a href="videoCompareTool.html" class="menu_current_item">&#62;&#62;videoCompareTools<br>视频edl对比工具</a></li>
 			  </ul>
 		  </li>
-			<script>
+		  <script>
 					var spread_span=document.querySelector(".menu_spread_span");
 					var spread_ul=document.querySelector(".menu_spread_ul");
 					var spread_top_a=document.querySelector(".menu_spread_a")
@@ -83,36 +83,39 @@
 			  <li class="nav_content_top_li">
 				  <a href="../index.html">Docs</a>
 				  &#62;
-			  </li>
-			  	  <li class="nav_content_top_li">
+		    </li>
+	  	    <li class="nav_content_top_li">
 				  <a href="Others.html">Others</a>
 				  &#62;
-			  </li>
-			  <li class="nav_content_top_li">KitsuTaskSnap</li>
+		    </li>
+			  <li class="nav_content_top_li">BRMTools</li>
 			  <li  class="nav_language_li">
-				  <a href="../../html/Others/kitsuSnap.html">翻译</a>
-			  </li>
+				  <a href="../../html_EN/Others/videoCompareTool.html">Translate</a>
+		    </li>
 			  <li></li>
 		  </ul>
 		  <hr>
 		  </div>
 		<div class="content">
 		  <div>
-			<h1>KitsuTaskSnap</h1>
-			<p>KitsuTaskSnap provides a screenshot function for your scenes.<br><br><img src="../../Resources/Others/Others_KSSnap_01_EN.webp" width="650" height="206" alt="" id="display_img"/>
-			  </p>
-			</div>
+			<h1>videoCompareTools</h1>
+			<p>videoCompareTools（视频edl对比工具），将视频的帧数与edl帧数进行对比，防止出现多帧或者少帧的情况，是动画师提交前检查的好帮手<br><br><br><br>
+			  <img src="../../Resources/Others/Others_videoCompare_01.png" width="646" height="229" alt="" id="display_img"/>
+				<br><br>双击运行，分别输入或选择edl文件的路径和视频路径，点击RUN按钮即可运行。<br><br>注意：可以对多个视频进行比对，只需要在选择的时候多选视频即可
+
+		    </p>
+		  </div>
 		</div>
 		<footer>
 		  <hr>
 		  © Copyright 2023, ZuruSZ.
 		  </footer>
-			</div>
-		</div>
-	</section>
+		  </div>
+	  </div>
+  </section>
 </div>
 <div id="img_page" class="img_backgroud">
-<img src="../../Resources/Others/Others_KSSnap_01_EN.webp" alt="" width="1300" height="411"> </div>
+	<img src="../../Resources/Others/Others_videoCompare_01.png" alt="" width="1200" height="426"> </div>
 <script>
 	var imge=document.getElementById("display_img")
 	var text_bk=document.querySelector("text_background");
