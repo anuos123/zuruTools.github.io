@@ -2,7 +2,7 @@
 
 预览界面，菜单切换，资产功能，截图功能，版本信息，资产保存
 
-![[https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image01.png]]
+![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image01.png)
 
 1.0-预览界面：
 
