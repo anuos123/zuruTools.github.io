@@ -7,7 +7,6 @@
 1.0-预览界面：
 
 	1.1-当鼠标点击预览界面资产图片，即可弹出右边的信息界面
-	
 	![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image02.png)
 	
 	1.2-当鼠标右键资产图片时,即可弹出资产功能
