@@ -79,10 +79,10 @@
 	![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image13.png)
 
 5.版本信息
-	鼠标左键点击资产图片,详情看1介绍
+	<br>鼠标左键点击资产图片,详情看1介绍
 
 6.资产保存
 点击资产库save按钮,弹窗检查视窗(Rigging/Modeling)
-	![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image4.png)
+	![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image14.png)
 	![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image15.png)
 检查完成后,点击Save保存资产.
