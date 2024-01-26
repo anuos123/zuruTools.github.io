@@ -17,13 +17,16 @@
 	<br>open file             >    打开资产文件
 	<br>import file           >   导入资产文件
 	<br>reference file        >   引用资产文件 
+ 
 <br>export > 导出资产
 	<br>abc                   >   功能暂时未开放
 	<br>fbx                   >   功能暂时未开放
+ 
 <br>tags   > 添加标签
 	<br>episode               >   集数标签
 	<br>status                >   状态标签
 	<br>group                 >   分类标签(能暂时未开放)
+ 
 <br>other   > 基础功能
 	<br>open in exploer       >  去到当前资产根目录
 	<br>remove file           >  删除资产(包含rig和model)
