@@ -8,11 +8,11 @@
 
 	1.1-当鼠标点击预览界面资产图片，即可弹出右边的信息界面
 	
-	![[Pasted image 20240126104454.png]]
+	![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image02.png)
 	
 	1.2-当鼠标右键资产图片时,即可弹出资产功能
 	
-	![[Pasted image 20240126105107.png]]
+	![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image03.png)
 	
 	1.3功能描述:
 	
@@ -44,53 +44,53 @@
 	
 	2.1-项目(project)
 	
-		![[Pasted image 20240126111423.png]]
+		![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image04.png)
 	
 	2.2-模块(module)
 		Modeling(模型)
 		Rigging(绑定)
 
-		![[Pasted image 20240126111430.png]]
+		![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image05.png)
 
 	2.3-类型(type)
 		Charater(角色)
 		Environment(场景)
 		Prop(道具)
 	
-		![[Pasted image 20240126111542.png]]
+		![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image06.png)
 	
 	2.4-集数(episode)
 	
-		![[Pasted image 20240126111445.png]]
+		![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image07.png)
 	
 	2.5-状态(status)
 
-		![[Pasted image 20240126111451.png]]
+		![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image08.png)
 
 
 3.0 - 资产功能
 	
 	3.1-资产创建
 		
-		![[Pasted image 20240126113502.png]]
+		![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image09.png)
 	
 	3.2-资产筛选
 		
-		![[Pasted image 20240126113847.png]]
+		![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image10.png)
 	
 	3.3-项目创建(不常用)
 		
-		![[Pasted image 20240126114921.png]]
+		![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image11.png)
 	
 	3.4-资产加载(刷新界面,但不常用)
 
 	3.5-启动预设
 	
-		![[Pasted image 20240126115150.png]]
+		![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image12.png)
 
 4.截图功能
 
-	![[Pasted image 20240126130803.png]]
+	![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image13.png)
 
 5.版本信息
 	鼠标左键点击资产图片,详情看1介绍
@@ -98,7 +98,7 @@
 6.资产保存
 	点击资产库save按钮,弹窗检查视窗(Rigging/Modeling)
 	
-	![[Pasted image 20240126131002.png]]
+	![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image4.png)
 
-	![[Pasted image 20240126131100.png]]
+	![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image15.png)
 	检查完成后,点击Save保存资产.
