@@ -13,21 +13,21 @@
  	![](https://github.com/anuos123/zuruTools.github.io/blob/main/Modeling/image03.png)
 	
 1.3功能描述:
-file  > 资产处理
-	open file             >    打开资产文件
-	import file           >   导入资产文件
-	reference file        >   引用资产文件 
-export > 导出资产
-	abc                   >   功能暂时未开放
-	fbx                   >   功能暂时未开放
-tags   > 添加标签
-	episode               >   集数标签
-	status                >   状态标签
-	group                 >   分类标签(能暂时未开放)
-other   > 基础功能
-	open in exploer       >  去到当前资产根目录
-	remove file           >  删除资产(包含rig和model)
-	update meterrial      >  材质更新(功能暂时未开放)
+<br>file  > 资产处理
+	<br>open file             >    打开资产文件
+	<br>import file           >   导入资产文件
+	<br>reference file        >   引用资产文件 
+<br>export > 导出资产
+	<br>abc                   >   功能暂时未开放
+	<br>fbx                   >   功能暂时未开放
+<br>tags   > 添加标签
+	<br>episode               >   集数标签
+	<br>status                >   状态标签
+	<br>group                 >   分类标签(能暂时未开放)
+<br>other   > 基础功能
+	<br>open in exploer       >  去到当前资产根目录
+	<br>remove file           >  删除资产(包含rig和model)
+	<br>update meterrial      >  材质更新(功能暂时未开放)
 
 2.0-菜单切换,分为5大类:
 	项目(project)
